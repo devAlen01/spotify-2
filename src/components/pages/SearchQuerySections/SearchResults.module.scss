@@ -1,0 +1,17 @@
+.SearchResults {
+  .content {
+    .tracks {
+      .track {
+        width: 100%;
+        &.active {
+          background-color: green;
+          color: #fff;
+        }
+        img {
+          width: 90px;
+          height: 90px;
+        }
+      }
+    }
+  }
+}
